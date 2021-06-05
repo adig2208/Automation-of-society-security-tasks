@@ -243,5 +243,5 @@ def new_form():
 if __name__ == '__main__':
     app.secret_key = 'super secret key'
     app.config['SESSION_TYPE'] = 'filesystem'
-    app.run(host='192.168.22.96', debug=True)
+    app.run(host='your IP', debug=True)
 
